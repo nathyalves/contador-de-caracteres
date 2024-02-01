@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contador de caracteres</title>
+    <link rel="stylesheet" href="assets/css/style.css" type="text/css">
+    <script src="assets/js/script.js"></script>
+</head>
+<body>
+    <div class="container">
+        <h1>Contador de caracteres</h1>
+
+        <div class="field">
+            <p>
+                <label for="input">Digite seu texto:</label><br>
+                <textarea name="input" id="input" rows="5" required placeholder="Insira aqui o texto."></textarea> 
+            </p>
+        </div>
+
+        <p>
+            <input type="button" onclick="contarCaracteres()" id="toggle" value="Contar Caracteres"> 
+        </p>
+
+        <div class="counter" id="counter"></div>
+    </div>
+    
+</body>
+</html>
