@@ -4,4 +4,4 @@ Contador de caracteres simples feito com HTML, CSS e Javascript que recebe um te
 
 <img src="capturadetela.png">
 
-Acesse aqui: 
+Acesse aqui: https://nathyalves.github.io/contador-de-caracteres/
